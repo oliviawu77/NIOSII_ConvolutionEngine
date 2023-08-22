@@ -1,0 +1,712 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'u0|uniphy_ddr3|pll0|pll_addr_cmd_clk'
+Slack : 0.558
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Setup 'u0|uniphy_ddr3|pll0|pll_afi_clk'
+Slack : 0.786
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Setup 'u0|uniphy_ddr3|pll0|pll_afi_half_clk'
+Slack : 0.901
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Setup 'u0|uniphy_ddr3|pll0|pll_dq_write_clk'
+Slack : 0.909
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Setup 'u0|uniphy_ddr3|pll0|pll_afi_phy_clk'
+Slack : 1.470
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Setup 'u0|uniphy_ddr3|pll0|pll_avl_clk'
+Slack : 1.548
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Setup 'u0|uniphy_ddr3|pll0|pll_write_clk'
+Slack : 2.402
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Setup 'altera_reserved_tck'
+Slack : 9.677
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Setup 'u0|uniphy_ddr3|pll0|pll_config_clk'
+Slack : 10.123
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'altera_reserved_tck'
+Slack : 0.155
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'u0|uniphy_ddr3|pll0|pll_afi_half_clk'
+Slack : 0.258
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'u0|uniphy_ddr3|pll0|pll_config_clk'
+Slack : 0.268
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'u0|uniphy_ddr3|pll0|pll_avl_clk'
+Slack : 0.272
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'u0|uniphy_ddr3|pll0|pll_afi_clk'
+Slack : 0.285
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'u0|uniphy_ddr3|pll0|pll_write_clk'
+Slack : 0.285
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'u0|uniphy_ddr3|pll0|pll_addr_cmd_clk'
+Slack : 0.345
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'u0|uniphy_ddr3|pll0|pll_dq_write_clk'
+Slack : 0.650
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'u0|uniphy_ddr3|pll0|pll_afi_phy_clk'
+Slack : 0.917
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'u0|uniphy_ddr3|pll0|pll_addr_cmd_clk'
+Slack : 1.487
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'u0|uniphy_ddr3|pll0|pll_afi_clk'
+Slack : 2.350
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'u0|uniphy_ddr3|pll0|pll_write_clk'
+Slack : 3.727
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'u0|uniphy_ddr3|pll0|pll_afi_half_clk'
+Slack : 4.984
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'u0|uniphy_ddr3|pll0|pll_config_clk'
+Slack : 7.820
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'u0|uniphy_ddr3|pll0|pll_afi_phy_clk'
+Slack : 9.634
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'u0|uniphy_ddr3|pll0|pll_avl_clk'
+Slack : 13.784
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'altera_reserved_tck'
+Slack : 14.560
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'u0|uniphy_ddr3|pll0|pll_write_clk'
+Slack : 0.689
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'altera_reserved_tck'
+Slack : 0.710
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'u0|uniphy_ddr3|pll0|pll_avl_clk'
+Slack : 0.732
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'u0|uniphy_ddr3|pll0|pll_config_clk'
+Slack : 0.822
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'u0|uniphy_ddr3|pll0|pll_afi_clk'
+Slack : 0.935
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'u0|uniphy_ddr3|pll0|pll_afi_half_clk'
+Slack : 1.069
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'u0|uniphy_ddr3|pll0|pll_addr_cmd_clk'
+Slack : 1.188
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'u0|uniphy_ddr3|pll0|pll_afi_phy_clk'
+Slack : 1.818
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_dq_write_clk'
+Slack : 0.957
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_write_clk'
+Slack : 0.965
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_afi_clk'
+Slack : 1.875
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_addr_cmd_clk'
+Slack : 2.383
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_afi_phy_clk'
+Slack : 2.626
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'pll_ref_clk'
+Slack : 4.966
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_afi_half_clk'
+Slack : 5.196
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_avl_clk'
+Slack : 8.577
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 15.601
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_config_clk'
+Slack : 19.002
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'u0|uniphy_ddr3|pll0|pll_addr_cmd_clk'
+Slack : 0.712
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'u0|uniphy_ddr3|pll0|pll_afi_clk'
+Slack : 0.853
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'u0|uniphy_ddr3|pll0|pll_dq_write_clk'
+Slack : 0.953
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'u0|uniphy_ddr3|pll0|pll_afi_half_clk'
+Slack : 0.993
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'u0|uniphy_ddr3|pll0|pll_avl_clk'
+Slack : 1.598
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'u0|uniphy_ddr3|pll0|pll_afi_phy_clk'
+Slack : 1.701
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'u0|uniphy_ddr3|pll0|pll_write_clk'
+Slack : 2.409
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'altera_reserved_tck'
+Slack : 9.744
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'u0|uniphy_ddr3|pll0|pll_config_clk'
+Slack : 10.183
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'altera_reserved_tck'
+Slack : 0.145
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'u0|uniphy_ddr3|pll0|pll_afi_half_clk'
+Slack : 0.242
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'u0|uniphy_ddr3|pll0|pll_config_clk'
+Slack : 0.252
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'u0|uniphy_ddr3|pll0|pll_avl_clk'
+Slack : 0.254
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'u0|uniphy_ddr3|pll0|pll_afi_clk'
+Slack : 0.268
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'u0|uniphy_ddr3|pll0|pll_write_clk'
+Slack : 0.317
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'u0|uniphy_ddr3|pll0|pll_addr_cmd_clk'
+Slack : 0.331
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'u0|uniphy_ddr3|pll0|pll_dq_write_clk'
+Slack : 0.739
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'u0|uniphy_ddr3|pll0|pll_afi_phy_clk'
+Slack : 0.863
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'u0|uniphy_ddr3|pll0|pll_addr_cmd_clk'
+Slack : 1.620
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'u0|uniphy_ddr3|pll0|pll_afi_clk'
+Slack : 2.578
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'u0|uniphy_ddr3|pll0|pll_write_clk'
+Slack : 3.906
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'u0|uniphy_ddr3|pll0|pll_afi_half_clk'
+Slack : 5.088
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'u0|uniphy_ddr3|pll0|pll_config_clk'
+Slack : 7.977
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'u0|uniphy_ddr3|pll0|pll_afi_phy_clk'
+Slack : 9.842
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'u0|uniphy_ddr3|pll0|pll_avl_clk'
+Slack : 14.071
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'altera_reserved_tck'
+Slack : 14.696
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'u0|uniphy_ddr3|pll0|pll_write_clk'
+Slack : 0.663
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'u0|uniphy_ddr3|pll0|pll_avl_clk'
+Slack : 0.683
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'altera_reserved_tck'
+Slack : 0.698
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'u0|uniphy_ddr3|pll0|pll_config_clk'
+Slack : 0.760
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'u0|uniphy_ddr3|pll0|pll_afi_clk'
+Slack : 0.833
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'u0|uniphy_ddr3|pll0|pll_afi_half_clk'
+Slack : 0.961
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'u0|uniphy_ddr3|pll0|pll_addr_cmd_clk'
+Slack : 1.081
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'u0|uniphy_ddr3|pll0|pll_afi_phy_clk'
+Slack : 1.712
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_dq_write_clk'
+Slack : 0.959
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_write_clk'
+Slack : 0.968
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_afi_clk'
+Slack : 1.860
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_addr_cmd_clk'
+Slack : 2.332
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_afi_phy_clk'
+Slack : 2.628
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'pll_ref_clk'
+Slack : 4.965
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_afi_half_clk'
+Slack : 5.170
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_avl_clk'
+Slack : 8.545
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 15.619
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_config_clk'
+Slack : 19.000
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'u0|uniphy_ddr3|pll0|pll_dq_write_clk'
+Slack : 1.810
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'u0|uniphy_ddr3|pll0|pll_addr_cmd_clk'
+Slack : 2.464
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'u0|uniphy_ddr3|pll0|pll_write_clk'
+Slack : 2.919
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'u0|uniphy_ddr3|pll0|pll_afi_clk'
+Slack : 3.390
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'u0|uniphy_ddr3|pll0|pll_afi_phy_clk'
+Slack : 3.947
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'u0|uniphy_ddr3|pll0|pll_avl_clk'
+Slack : 4.175
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'u0|uniphy_ddr3|pll0|pll_afi_half_clk'
+Slack : 6.850
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'altera_reserved_tck'
+Slack : 13.298
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'u0|uniphy_ddr3|pll0|pll_config_clk'
+Slack : 14.726
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'altera_reserved_tck'
+Slack : 0.023
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'u0|uniphy_ddr3|pll0|pll_avl_clk'
+Slack : 0.135
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'u0|uniphy_ddr3|pll0|pll_config_clk'
+Slack : 0.135
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'u0|uniphy_ddr3|pll0|pll_afi_half_clk'
+Slack : 0.139
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'u0|uniphy_ddr3|pll0|pll_afi_clk'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'u0|uniphy_ddr3|pll0|pll_write_clk'
+Slack : 0.156
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'u0|uniphy_ddr3|pll0|pll_addr_cmd_clk'
+Slack : 0.171
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'u0|uniphy_ddr3|pll0|pll_afi_phy_clk'
+Slack : 0.422
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'u0|uniphy_ddr3|pll0|pll_dq_write_clk'
+Slack : 0.731
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'u0|uniphy_ddr3|pll0|pll_addr_cmd_clk'
+Slack : 2.883
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'u0|uniphy_ddr3|pll0|pll_afi_clk'
+Slack : 4.008
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'u0|uniphy_ddr3|pll0|pll_write_clk'
+Slack : 5.144
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'u0|uniphy_ddr3|pll0|pll_afi_half_clk'
+Slack : 8.753
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'u0|uniphy_ddr3|pll0|pll_config_clk'
+Slack : 10.266
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'u0|uniphy_ddr3|pll0|pll_afi_phy_clk'
+Slack : 11.384
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'altera_reserved_tck'
+Slack : 15.821
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'u0|uniphy_ddr3|pll0|pll_avl_clk'
+Slack : 16.319
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'altera_reserved_tck'
+Slack : 0.254
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'u0|uniphy_ddr3|pll0|pll_write_clk'
+Slack : 0.277
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'u0|uniphy_ddr3|pll0|pll_avl_clk'
+Slack : 0.321
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'u0|uniphy_ddr3|pll0|pll_config_clk'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'u0|uniphy_ddr3|pll0|pll_afi_clk'
+Slack : 0.481
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'u0|uniphy_ddr3|pll0|pll_afi_half_clk'
+Slack : 0.562
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'u0|uniphy_ddr3|pll0|pll_addr_cmd_clk'
+Slack : 0.647
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'u0|uniphy_ddr3|pll0|pll_afi_phy_clk'
+Slack : 0.966
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_write_clk'
+Slack : 1.307
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_dq_write_clk'
+Slack : 1.309
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_afi_clk'
+Slack : 2.191
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_addr_cmd_clk'
+Slack : 2.853
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_afi_phy_clk'
+Slack : 2.966
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'pll_ref_clk'
+Slack : 4.975
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_afi_half_clk'
+Slack : 5.521
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_avl_clk'
+Slack : 8.879
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 15.646
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_config_clk'
+Slack : 19.512
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'u0|uniphy_ddr3|pll0|pll_dq_write_clk'
+Slack : 1.834
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'u0|uniphy_ddr3|pll0|pll_addr_cmd_clk'
+Slack : 2.659
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'u0|uniphy_ddr3|pll0|pll_write_clk'
+Slack : 2.937
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'u0|uniphy_ddr3|pll0|pll_afi_clk'
+Slack : 3.828
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'u0|uniphy_ddr3|pll0|pll_afi_phy_clk'
+Slack : 4.126
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'u0|uniphy_ddr3|pll0|pll_avl_clk'
+Slack : 4.356
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'u0|uniphy_ddr3|pll0|pll_afi_half_clk'
+Slack : 7.485
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'altera_reserved_tck'
+Slack : 13.634
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'u0|uniphy_ddr3|pll0|pll_config_clk'
+Slack : 15.257
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'altera_reserved_tck'
+Slack : 0.006
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'u0|uniphy_ddr3|pll0|pll_avl_clk'
+Slack : 0.123
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'u0|uniphy_ddr3|pll0|pll_afi_half_clk'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'u0|uniphy_ddr3|pll0|pll_config_clk'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'u0|uniphy_ddr3|pll0|pll_afi_clk'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'u0|uniphy_ddr3|pll0|pll_write_clk'
+Slack : 0.142
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'u0|uniphy_ddr3|pll0|pll_addr_cmd_clk'
+Slack : 0.158
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'u0|uniphy_ddr3|pll0|pll_afi_phy_clk'
+Slack : 0.434
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'u0|uniphy_ddr3|pll0|pll_dq_write_clk'
+Slack : 0.742
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'u0|uniphy_ddr3|pll0|pll_addr_cmd_clk'
+Slack : 3.052
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'u0|uniphy_ddr3|pll0|pll_afi_clk'
+Slack : 4.345
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'u0|uniphy_ddr3|pll0|pll_write_clk'
+Slack : 5.227
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'u0|uniphy_ddr3|pll0|pll_afi_half_clk'
+Slack : 9.340
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'u0|uniphy_ddr3|pll0|pll_config_clk'
+Slack : 10.583
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'u0|uniphy_ddr3|pll0|pll_afi_phy_clk'
+Slack : 11.538
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'altera_reserved_tck'
+Slack : 15.946
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'u0|uniphy_ddr3|pll0|pll_avl_clk'
+Slack : 16.779
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'altera_reserved_tck'
+Slack : 0.240
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'u0|uniphy_ddr3|pll0|pll_avl_clk'
+Slack : 0.293
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'u0|uniphy_ddr3|pll0|pll_write_clk'
+Slack : 0.308
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'u0|uniphy_ddr3|pll0|pll_config_clk'
+Slack : 0.320
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'u0|uniphy_ddr3|pll0|pll_afi_clk'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'u0|uniphy_ddr3|pll0|pll_afi_half_clk'
+Slack : 0.475
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'u0|uniphy_ddr3|pll0|pll_addr_cmd_clk'
+Slack : 0.571
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'u0|uniphy_ddr3|pll0|pll_afi_phy_clk'
+Slack : 0.872
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_write_clk'
+Slack : 1.301
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_dq_write_clk'
+Slack : 1.306
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_afi_clk'
+Slack : 2.196
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_addr_cmd_clk'
+Slack : 2.848
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_afi_phy_clk'
+Slack : 2.962
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'pll_ref_clk'
+Slack : 4.983
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_afi_half_clk'
+Slack : 5.522
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_avl_clk'
+Slack : 8.879
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 15.688
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'u0|uniphy_ddr3|pll0|pll_config_clk'
+Slack : 19.521
+TNS   : 0.000
+
+------------------------------------------------------------
+Info: see the "DDR report" for DDR timing results
+------------------------------------------------------------
+------------------------------------------------------------

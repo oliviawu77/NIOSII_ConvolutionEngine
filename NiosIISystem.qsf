@@ -1,0 +1,311 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+# Date created = 21:09:16  February 23, 2023
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		NiosIISystem_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CGTFD9E5F35C7
+set_global_assignment -name TOP_LEVEL_ENTITY Top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.0.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "21:09:16  FEBRUARY 23, 2023"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.0.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name VERILOG_FILE NiosIISystem/synthesis/NiosIISystem.v
+set_global_assignment -name QSYS_FILE NiosIISystem.qsys
+set_global_assignment -name VERILOG_FILE Top.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name IO_STANDARD "SSTL-15" -to oct_rzqin
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_dq[0]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to mem_dq[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to mem_dq[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_dq[1]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to mem_dq[1] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to mem_dq[1] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_dq[2]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to mem_dq[2] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to mem_dq[2] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_dq[3]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to mem_dq[3] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to mem_dq[3] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_dq[4]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to mem_dq[4] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to mem_dq[4] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_dq[5]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to mem_dq[5] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to mem_dq[5] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_dq[6]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to mem_dq[6] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to mem_dq[6] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_dq[7]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to mem_dq[7] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to mem_dq[7] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to mem_dqs[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to mem_dqs[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to mem_dqs[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name D5_DELAY 4 -to mem_dqs[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name D6_DELAY 0 -to mem_dqs[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to mem_dqs_n[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to mem_dqs_n[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to mem_dqs_n[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name D5_DELAY 4 -to mem_dqs_n[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name D6_DELAY 0 -to mem_dqs_n[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to mem_ck[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITHOUT CALIBRATION" -to mem_ck[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name D5_DELAY 2 -to mem_ck[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to mem_ck_n[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITHOUT CALIBRATION" -to mem_ck_n[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name D5_DELAY 2 -to mem_ck_n[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_a[0]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_a[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_a[10]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_a[10] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_a[11]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_a[11] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_a[12]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_a[12] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_a[1]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_a[1] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_a[2]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_a[2] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_a[3]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_a[3] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_a[4]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_a[4] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_a[5]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_a[5] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_a[6]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_a[6] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_a[7]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_a[7] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_a[8]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_a[8] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_a[9]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_a[9] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_ba[0]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_ba[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_ba[1]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_ba[1] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_ba[2]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_ba[2] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_cs_n[0]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_cs_n[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_we_n[0]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_we_n[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_ras_n[0]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_ras_n[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_cas_n[0]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_cas_n[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_odt[0]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_odt[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_cke[0]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_cke[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "1.5 V" -to mem_reset_n
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to mem_reset_n -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_dm[0]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to mem_dm[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name IO_STANDARD LVDS -to pll_ref_clk
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_dq[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_dq[1] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_dq[2] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_dq[3] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_dq[4] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_dq[5] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_dq[6] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_dq[7] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_dm[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_dqs[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_dqs_n[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_a[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_a[10] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_a[11] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_a[12] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_a[1] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_a[2] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_a[3] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_a[4] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_a[5] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_a[6] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_a[7] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_a[8] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_a[9] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_ba[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_ba[1] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_ba[2] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_cs_n[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_we_n[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_ras_n[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_cas_n[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_odt[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_cke[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_reset_n -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_ck[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to mem_ck_n[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name GLOBAL_SIGNAL "GLOBAL CLOCK" -to u0|uniphy_ddr3|pll0|pll_afi_clk -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name GLOBAL_SIGNAL "DUAL-REGIONAL CLOCK" -to u0|uniphy_ddr3|pll0|pll_addr_cmd_clk -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name GLOBAL_SIGNAL "DUAL-REGIONAL CLOCK" -to u0|uniphy_ddr3|pll0|pll_avl_clk -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name GLOBAL_SIGNAL "DUAL-REGIONAL CLOCK" -to u0|uniphy_ddr3|pll0|pll_config_clk -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name GLOBAL_SIGNAL OFF -to u0|uniphy_ddr3|p0|umemphy|ureset|phy_reset_mem_stable_n -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name GLOBAL_SIGNAL OFF -to u0|uniphy_ddr3|p0|umemphy|ureset|phy_reset_n -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name GLOBAL_SIGNAL OFF -to u0|uniphy_ddr3|s0|sequencer_rw_mgr_inst|rw_mgr_inst|rw_mgr_core_inst|rw_soft_reset_n -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name GLOBAL_SIGNAL OFF -to u0|uniphy_ddr3|p0|umemphy|uread_datapath|reset_n_fifo_write_side[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name GLOBAL_SIGNAL OFF -to u0|uniphy_ddr3|p0|umemphy|uread_datapath|reset_n_fifo_wraddress[0] -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name ENABLE_BENEFICIAL_SKEW_OPTIMIZATION_FOR_NON_GLOBAL_CLOCKS ON -to u0|uniphy_ddr3 -tag __NiosIISystem_uniphy_ddr3_p0
+set_instance_assignment -name PLL_COMPENSATION_MODE DIRECT -to u0|uniphy_ddr3|pll0|fbout -tag __NiosIISystem_uniphy_ddr3_p0
+set_global_assignment -name USE_DLL_FREQUENCY_FOR_DQS_DELAY_CHAIN ON
+set_global_assignment -name UNIPHY_SEQUENCER_DQS_CONFIG_ENABLE ON
+set_global_assignment -name OPTIMIZE_MULTI_CORNER_TIMING ON
+set_global_assignment -name ECO_REGENERATE_REPORT ON
+set_instance_assignment -name IO_STANDARD 2.5V -to global_reset_n
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to led_pio[0]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to led_pio[1]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to led_pio[2]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to led_pio[3]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to led_pio[4]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to led_pio[5]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to led_pio[6]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to led_pio[7]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to mem_dm[1]
+set_location_assignment PIN_AM13 -to mem_a[12]
+set_location_assignment PIN_AM16 -to mem_a[11]
+set_location_assignment PIN_AL16 -to mem_a[10]
+set_location_assignment PIN_AJ16 -to mem_a[9]
+set_location_assignment PIN_AH16 -to mem_a[8]
+set_location_assignment PIN_AL17 -to mem_a[7]
+set_location_assignment PIN_AK17 -to mem_a[6]
+set_location_assignment PIN_AJ17 -to mem_a[5]
+set_location_assignment PIN_AH17 -to mem_a[4]
+set_location_assignment PIN_AN18 -to mem_a[3]
+set_location_assignment PIN_AM18 -to mem_a[2]
+set_location_assignment PIN_AL18 -to mem_a[1]
+set_location_assignment PIN_AK18 -to mem_a[0]
+set_location_assignment PIN_AP17 -to mem_ba[2]
+set_location_assignment PIN_AN17 -to mem_ba[1]
+set_location_assignment PIN_AN16 -to mem_ba[0]
+set_location_assignment PIN_AP15 -to mem_cas_n[0]
+set_location_assignment PIN_AA18 -to mem_ck[0]
+set_location_assignment PIN_AA17 -to mem_ck_n[0]
+set_location_assignment PIN_AP26 -to mem_cke[0]
+set_location_assignment PIN_AA16 -to mem_cs_n[0]
+set_location_assignment PIN_AL21 -to mem_dm[0]
+set_location_assignment PIN_AM21 -to mem_dq[7]
+set_location_assignment PIN_AJ19 -to mem_dq[6]
+set_location_assignment PIN_AG19 -to mem_dq[5]
+set_location_assignment PIN_AH19 -to mem_dq[4]
+set_location_assignment PIN_AP21 -to mem_dq[3]
+set_location_assignment PIN_AP20 -to mem_dq[2]
+set_location_assignment PIN_AM19 -to mem_dq[1]
+set_location_assignment PIN_AN19 -to mem_dq[0]
+set_location_assignment PIN_AB19 -to mem_dqs[0]
+set_location_assignment PIN_AC19 -to mem_dqs_n[0]
+set_location_assignment PIN_AN21 -to mem_odt[0]
+set_location_assignment PIN_AP14 -to mem_ras_n[0]
+set_location_assignment PIN_AJ22 -to mem_reset_n
+set_location_assignment PIN_AN12 -to mem_we_n[0]
+set_location_assignment PIN_AP19 -to oct_rzqin
+set_location_assignment PIN_AF18 -to pll_ref_clk
+set_location_assignment PIN_AD29 -to global_reset_n
+set_location_assignment PIN_AM23 -to led_pio[0]
+set_location_assignment PIN_AE25 -to led_pio[1]
+set_location_assignment PIN_AK29 -to led_pio[2]
+set_location_assignment PIN_AL31 -to led_pio[3]
+set_location_assignment PIN_AF25 -to led_pio[4]
+set_location_assignment PIN_AJ27 -to led_pio[5]
+set_location_assignment PIN_AC22 -to led_pio[6]
+set_location_assignment PIN_AH27 -to led_pio[7]
+set_global_assignment -name ENABLE_OCT_DONE OFF
+set_global_assignment -name STRATIXV_CONFIGURATION_SCHEME "PASSIVE SERIAL"
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN ON
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_global_assignment -name ACTIVE_SERIAL_CLOCK FREQ_100MHZ
+set_location_assignment PIN_AD24 -to tristate_conduit_bridge_0_out_tcm_address_out[25]
+set_location_assignment PIN_AH31 -to tristate_conduit_bridge_0_out_tcm_address_out[24]
+set_location_assignment PIN_AK32 -to tristate_conduit_bridge_0_out_tcm_address_out[23]
+set_location_assignment PIN_AM33 -to tristate_conduit_bridge_0_out_tcm_address_out[22]
+set_location_assignment PIN_AF30 -to tristate_conduit_bridge_0_out_tcm_address_out[21]
+set_location_assignment PIN_AN33 -to tristate_conduit_bridge_0_out_tcm_address_out[20]
+set_location_assignment PIN_AG30 -to tristate_conduit_bridge_0_out_tcm_address_out[19]
+set_location_assignment PIN_AJ30 -to tristate_conduit_bridge_0_out_tcm_address_out[18]
+set_location_assignment PIN_AK30 -to tristate_conduit_bridge_0_out_tcm_address_out[17]
+set_location_assignment PIN_AA30 -to tristate_conduit_bridge_0_out_tcm_address_out[16]
+set_location_assignment PIN_AG29 -to tristate_conduit_bridge_0_out_tcm_address_out[15]
+set_location_assignment PIN_AB30 -to tristate_conduit_bridge_0_out_tcm_address_out[14]
+set_location_assignment PIN_AH28 -to tristate_conduit_bridge_0_out_tcm_address_out[13]
+set_location_assignment PIN_AF28 -to tristate_conduit_bridge_0_out_tcm_address_out[12]
+set_location_assignment PIN_AB29 -to tristate_conduit_bridge_0_out_tcm_address_out[11]
+set_location_assignment PIN_AE28 -to tristate_conduit_bridge_0_out_tcm_address_out[10]
+set_location_assignment PIN_AB28 -to tristate_conduit_bridge_0_out_tcm_address_out[9]
+set_location_assignment PIN_AF26 -to tristate_conduit_bridge_0_out_tcm_address_out[8]
+set_location_assignment PIN_AF27 -to tristate_conduit_bridge_0_out_tcm_address_out[7]
+set_location_assignment PIN_Y25 -to tristate_conduit_bridge_0_out_tcm_address_out[6]
+set_location_assignment PIN_Y24 -to tristate_conduit_bridge_0_out_tcm_address_out[5]
+set_location_assignment PIN_AC28 -to tristate_conduit_bridge_0_out_tcm_address_out[4]
+set_location_assignment PIN_AB23 -to tristate_conduit_bridge_0_out_tcm_address_out[3]
+set_location_assignment PIN_AB24 -to tristate_conduit_bridge_0_out_tcm_address_out[2]
+set_location_assignment PIN_AC27 -to tristate_conduit_bridge_0_out_tcm_address_out[1]
+set_location_assignment PIN_AK33 -to tristate_conduit_bridge_0_out_tcm_address_out[0]
+set_location_assignment PIN_AA21 -to tristate_conduit_bridge_0_out_tcm_chipselect_n_out[0]
+set_location_assignment PIN_AL33 -to tristate_conduit_bridge_0_out_tcm_data_out[15]
+set_location_assignment PIN_AC23 -to tristate_conduit_bridge_0_out_tcm_data_out[14]
+set_location_assignment PIN_AC24 -to tristate_conduit_bridge_0_out_tcm_data_out[13]
+set_location_assignment PIN_AL32 -to tristate_conduit_bridge_0_out_tcm_data_out[12]
+set_location_assignment PIN_AA28 -to tristate_conduit_bridge_0_out_tcm_data_out[11]
+set_location_assignment PIN_AA27 -to tristate_conduit_bridge_0_out_tcm_data_out[10]
+set_location_assignment PIN_AH29 -to tristate_conduit_bridge_0_out_tcm_data_out[9]
+set_location_assignment PIN_AG28 -to tristate_conduit_bridge_0_out_tcm_data_out[8]
+set_location_assignment PIN_AA25 -to tristate_conduit_bridge_0_out_tcm_data_out[7]
+set_location_assignment PIN_AB25 -to tristate_conduit_bridge_0_out_tcm_data_out[6]
+set_location_assignment PIN_AC29 -to tristate_conduit_bridge_0_out_tcm_data_out[5]
+set_location_assignment PIN_W24 -to tristate_conduit_bridge_0_out_tcm_data_out[4]
+set_location_assignment PIN_Y22 -to tristate_conduit_bridge_0_out_tcm_data_out[3]
+set_location_assignment PIN_Y23 -to tristate_conduit_bridge_0_out_tcm_data_out[2]
+set_location_assignment PIN_AA23 -to tristate_conduit_bridge_0_out_tcm_data_out[1]
+set_location_assignment PIN_AJ31 -to tristate_conduit_bridge_0_out_tcm_data_out[0]
+set_location_assignment PIN_AG16 -to tristate_conduit_bridge_0_out_tcm_read_n_out[0]
+set_location_assignment PIN_AM14 -to tristate_conduit_bridge_0_out_tcm_write_n_out[0]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to tristate_conduit_bridge_0_out_tcm_read_n_out[0]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to tristate_conduit_bridge_0_out_tcm_write_n_out[0]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
